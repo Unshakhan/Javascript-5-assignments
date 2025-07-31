@@ -106,3 +106,102 @@
 // document.body.appendChild(paragraph2);
 // document.body.appendChild(paragraph3);
 // document.body.appendChild(paragraph4);
+//_________________________________________________Ch5___________________________________
+//_________Q1___________--
+//For Addition
+// var num1 = 3
+// var num2 = 5
+// var sum = num1 + num2
+// document.body.innerHTML = "The sum of " + num1 + " and " + num2 + " is: " + sum;
+//__________-Q2__________--
+// For Subtraction
+// var num1 = 3
+// var num2 = 5
+// var ans = num1 - num2
+// document.body.innerHTML = "The sum of " + num1 + " and " + num2 + " is: " + ans;
+//For Multiplication
+// var num1 = 3
+// var num2 = 5
+// var ans = num1 * num2
+// document.body.innerHTML = "The sum of " + num1 + " and " + num2 + " is: " + ans;
+//For Modulus
+// var num1 = 3
+// var num2 = 5
+// var ans = num1 % num2
+// document.body.innerHTML = "The sum of " + num1 + " and " + num2 + " is: " + ans;
+//______Q3______________
+// a. Declare a variable
+// var number;
+
+// // Step b
+// document.write("Value after variable declaration is: " + number + "<br>");
+
+// // Step c
+// number = 5;
+
+// // Step d
+// document.write("Initial value: " + number + "<br>");
+
+// // Step e
+// number++;
+
+// // Step f
+// document.write("Value after increment is: " + number + "<br>");
+
+// // Step g
+// number += 7;
+
+// // Step h
+// document.write("Value after addition is: " + number + "<br>");
+
+// // Step i
+// number--;
+
+// // Step j
+// document.write("Value after decrement is: " + number + "<br>");
+
+// // Step k
+// var remainder = number % 3;
+
+// // Step l
+// document.write("The remainder is: " + remainder);
+ //________Q4_______-
+ // Store the price of one movie ticket
+// var ticketPrice = 600;
+
+// // Calculate the cost of 5 tickets
+// var totalCost = ticketPrice * 5;
+
+// // Show the result on the browser
+// document.write("Total cost to buy 5 movie tickets is: " + totalCost + " PKR");
+//______Q5______
+// Step 1: Set the number
+// var number = 4;
+
+// Step 2: Show table from 1 to 10
+// document.write(number + " x 1 = " + (number * 1) + "<br>");
+// document.write(number + " x 2 = " + (number * 2) + "<br>");
+// document.write(number + " x 3 = " + (number * 3) + "<br>");
+// document.write(number + " x 4 = " + (number * 4) + "<br>");
+// document.write(number + " x 5 = " + (number * 5) + "<br>");
+// document.write(number + " x 6 = " + (number * 6) + "<br>");
+// document.write(number + " x 7 = " + (number * 7) + "<br>");
+// document.write(number + " x 8 = " + (number * 8) + "<br>");
+// document.write(number + " x 9 = " + (number * 9) + "<br>");
+// document.write(number + " x 10 = " + (number * 10) + "<br>");
+//_______Q6_________-
+// a. Store Celsius temperature
+// var celsius = 25;
+
+// // b. Convert Celsius to Fahrenheit
+// var fahrenheit = (celsius * 9/5) + 32;
+// document.write(celsius + "°C is " + fahrenheit + "°F<br>");
+
+// // c. Store Fahrenheit temperature
+// var fahrenTemp = 70;
+
+// // d. Convert Fahrenheit to Celsius
+// var celsiusTemp = (fahrenTemp - 32) * 5/9;
+// document.write(fahrenTemp + "°F is " + celsiusTemp + "°C");
+
+
