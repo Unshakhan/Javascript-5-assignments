@@ -203,5 +203,115 @@
 // // d. Convert Fahrenheit to Celsius
 // var celsiusTemp = (fahrenTemp - 32) * 5/9;
 // document.write(fahrenTemp + "°F is " + celsiusTemp + "°C");
+//_________Q7________
+// a. Price of item 1
+// var priceItem1 = 650;
+
+// // b. Price of item 2
+// var priceItem2 = 100;
+
+// // c. Ordered quantity of item 1
+// var quantityItem1 = 3;
+
+// // d. Ordered quantity of item 2
+// var quantityItem2 = 7;
+
+// // e. Shipping charges
+// var shippingCharges = 100;
+
+// // Calculate total cost
+// var totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+
+// // Show receipt in browser
+// document.write("<h2>Shopping Cart Receipt</h2>");
+// document.write("Price of item 1 is " + priceItem1 + "<br>");
+// document.write("Quantity of item 1 is " + quantityItem1 + "<br>");
+// document.write("Price of item 2 is " + priceItem2 + "<br>");
+// document.write("Quantity of item 2 is " + quantityItem2 + "<br>");
+// document.write("Shipping Charges: " + shippingCharges + "<br><br>");
+// document.write("<strong>Total cost of your order is " + totalCost + " PKR</strong>");
+//________Q8_________
+// Store total marks and obtained marks
+// var totalMarks = 500;
+// var marksObtained = 425;
+
+// // Calculate percentage
+// var percentage = (marksObtained / totalMarks) * 100;
+
+// // Display result in browser
+// document.write("<h2>Marks Sheet</h2>");
+// document.write("Total Marks: " + totalMarks + "<br>");
+// document.write("Marks Obtained: " + marksObtained + "<br>");
+// document.write("Percentage: " + percentage + "%");
+//__________Q9_________
+// Currency conversion in a single expression
+// var totalPKR = (10 * 104.80) + (25 * 28);
+
+// // Display the result
+// document.write("<h2>Currency in PKR</h2>");
+// document.write("Total Currency in PKR: " + totalPKR);
+//_______Q10_________
+// Initialize variable and do all operations in one line
+// var result = ((5 + 5) * 10) / 2;
+
+// // Show the result in browser
+// document.write("<h2>Arithmetic Operations</h2>");
+// document.write("Result: " + result);
+//_______Q11_________
+// a. Store current year
+// var currentYear = 2025;
+
+// // b. Store birth year
+// var birthYear = 2002;
+
+// // c. Calculate 2 possible ages
+// var age1 = currentYear - birthYear;       // Already had birthday
+// var age2 = age1 - 1;                       // Haven’t had birthday yet
+
+// // Display result
+// document.write("<h2>Age Calculator</h2>");
+// document.write("They are either " + age2 + " or " + age1 + " years old.");
+//_______Q12_________
+
+// a. Store the radius
+// var radius = 7;
+// var pi = 3.142;
+
+// // b. Calculate circumference
+// var circumference = 2 * pi * radius;
+
+// // c. Calculate area
+// var area = pi * radius * radius;
+
+// // Output the results
+// document.write("<h2>The Geometrizer</h2>");
+// document.write("Radius of the circle is: " + radius + "<br>");
+// document.write("The circumference is: " + circumference + "<br>");
+// document.write("The area is: " + area);
+
+//________Q13_________
+// a. Favorite snack
+// var favoriteSnack = "Chocolate Chip Cookies";
+
+// // b. Current age
+// var currentAge = 22;
+
+// // c. Maximum expected age
+// var maxAge = 80;
+
+// // d. Amount of snack per day
+// var perDay = 3;
+
+// // e. Calculate total needed
+// var yearsRemaining = maxAge - currentAge;
+// var totalSnacks = yearsRemaining * 365 * perDay;
+
+// // Output the result
+// document.write("<h2>The Lifetime Supply Calculator</h2>");
+// document.write("You will need " + totalSnacks + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".");
+
+
+
+
 
 
