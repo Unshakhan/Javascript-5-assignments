@@ -290,7 +290,6 @@
 // document.write("The area is: " + area);
 
 //________Q13_________
-// a. Favorite snack
 // var favoriteSnack = "Chocolate Chip Cookies";
 
 // // b. Current age
@@ -309,7 +308,6 @@
 // // Output the result
 // document.write("<h2>The Lifetime Supply Calculator</h2>");
 // document.write("You will need " + totalSnacks + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".");
-
 
 
 
