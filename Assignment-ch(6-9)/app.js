@@ -81,3 +81,5 @@
 //   document.write("<tr><th colspan='2'>Total Marks</th><td>" + obtainedMarks + "</td></tr>");
 //   document.write("<tr><th colspan='2'>Percentage</th><td>" + percentage.toFixed(2) + "%</td></tr>");
 //   document.write("</table>");
+ //___________________________ch7__________________________
+ //____________Q1_________________
