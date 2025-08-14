@@ -1,4 +1,4 @@
-//__________Ch-14 to Ch - 15_____________
+//__________Ch-14 to Ch - 16_____________
 //_______Q1_______
 // var studentName = [] //JS literal notation
 //_______Q2_______
@@ -55,3 +55,72 @@
 //     colors.splice(addIndex, 0, addColor);//kis index se add krni hay , kitni values delete krni hay,jo cheez add krani hay
 //     document.write("f) After adding at index " + addIndex + ": " + colors + "<br><br>");
 //_________Q10__________
+//____________practice
+// var scores = ['a','m','g','i','n','w','v','b'];
+//by default make alphabets ascending
+// scores.sort();
+// console.log(scores);
+//_________Q10____
+// var ScoreOfStdents = [320, 230, 480,120];
+// console.log("Scores of Students: " +ScoreOfStdents);
+// //to make order ascending
+// ScoreOfStdents.sort(
+//     function(a,b){
+//         return a-b
+//     }
+// );
+// console.log("Ordered Scores of Students: " + ScoreOfStdents);
+
+// var ScoreOfStdents = [320, 230, 480,120];
+// console.log("Scores of Students: " +ScoreOfStdents);
+// //to make order descending
+// ScoreOfStdents.sort(
+//     function(a,b){
+//         return b-a
+//     }
+// );
+// console.log("Ordered Scores of Students: " + ScoreOfStdents);
+//_________Q11________
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// console.log('Cities List ' + cities)
+// var selectedCities = cities.slice(2, 4); 
+// console.log("Selected cities list: " + selectedCities);
+ //_________Q12________
+//  var arr = ["This", "is", "my", "cat"];
+
+// // Show as array
+// console.log("Array:\n" + arr);
+
+// // Convert array to string using join with spaces
+// var str = arr.join(" ");
+// console.log("String:\n" + str);
+ //_________Q13________
+//  Devices = []
+// Devices.push("Keyboard")
+// Devices.push("mouse")
+// Devices.push("printer")
+// Devices.push("monitor")
+// console.log("Out:\n" + Devices.shift().toUpperCase());
+// console.log("Out:\n" + Devices.shift().toUpperCase());
+// console.log("Out:\n" + Devices.shift().toUpperCase());
+// console.log("Out:\n" + Devices.shift().toUpperCase());
+ //_________Q14________
+
+//  Devices = []
+// Devices.push("Keyboard")
+// Devices.push("mouse")
+// Devices.push("printer")
+// Devices.push("monitor")
+// console.log("Out:\n" + Devices.pop().toLowerCase());
+// console.log("Out:\n" + Devices.pop().toLowerCase());
+// console.log("Out:\n" + Devices.pop().toLowerCase());
+// console.log("Out:\n" + Devices.pop().toLowerCase());
+
+ //_________Q15________
+//  var manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+//  document.write("<center><select style='width: 200px;'>")
+//  for(i=0; i < manufacturers.length; i++){
+//      document.write("<option>" + manufacturers[i] + "</option>");
+//  }
+//   document.write("</select>");
