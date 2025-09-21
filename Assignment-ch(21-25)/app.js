@@ -197,3 +197,74 @@
 // if(!flag){
 //      alert(B + " is not available in our bakery at ") 
 // }
+//_______________Q15____________-
+// let password = prompt("Enter your password:");
+// let isValid = false;
+
+// // Start validation
+// // Step 1: Length check
+// if (password.length >= 6) {
+//   // Step 2: First character should not be a digit
+//   let firstCharCode = password.charCodeAt(0);
+//   if (!(firstCharCode >= 48 && firstCharCode <= 57)) {
+//     //Pehla character number na ho (48-57)
+
+//     // Step 3: Check for at least one letter and one number
+//     let hasLetter = false;
+//     let hasNumber = false;
+
+//     for (let i = 0; i < password.length; i++) {
+//       let charCode = password.charCodeAt(i);
+
+//       // Check for letter (A-Z or a-z)
+//       if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
+//         hasLetter = true;
+//       }
+
+//       // Check for number (0-9)
+//       if (charCode >= 48 && charCode <= 57) {
+//         hasNumber = true;
+//       }
+//     }
+
+//     // Final decision
+//     if (hasLetter && hasNumber) {
+//       isValid = true;
+//     }
+//   }
+// }
+
+// // Show result
+// if (isValid) {
+//   alert("Password is valid!");
+// } else {
+//   alert("Invalid password!\n\nPassword must:\n- Be at least 6 characters long\n- Not start with a number\n- Contain at least one letter and one number");
+// }
+//_______________Q16____________-
+
+// var university = "University of Karachi";
+// var array = university.split("")
+// // document.write(array);
+// for (let index = 0; index < array.length; index++) {
+//     document.write(array[index] + "<br>")
+// }
+//_______________Q17____________-
+// var userinput = prompt("Enter anything");
+// var lastChar = userinput[userinput.length - 1]; // Get last character
+// // console.log(lastChar);
+// var index = userinput.lastIndexOf(lastChar);    // Find last index of that char
+// console.log("Your last character is: " + lastChar);
+// console.log("Index of last character is: " + index);
+//_______________Q18____________-
+
+  var text = "The quick brown fox jumps over the lazy dog";
+  var lowerText = text.toLowerCase();  
+  var words = lowerText.split(" ")
+  var count = 0
+  for (var i = 0; i < words.length; i++) {
+    if(words[i]=== "the"){
+      count++;
+    }
+  }
+    document.write("Text: " + text + "<br>");
+  document.write("There are " + count + " occurrence(s) of word 'the'");
