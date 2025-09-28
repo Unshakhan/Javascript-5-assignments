@@ -104,4 +104,91 @@
 // var width = 30
 // height = 10
 // console.log(calculateArea(width,height));
-//_______________Q10
+//_____________Q!0
+// let userInput = prompt("Enter a word:");   // user se word lena
+// userInput = userInput.toLowerCase();       // small letters me convert
+
+// let reversed = userInput.split("").reverse().join("");  
+// // word ko todna, ulta karna aur wapas jorna
+
+// if (userInput === reversed) {
+//   alert(userInput + " is a palindrome!");
+// } else {
+//   alert(userInput + " is NOT a palindrome!");
+// }
+
+//_______________Q11
+// function parameter(a){
+//     var flag = true
+//     var titleCase = ""
+//     for( var i=0;i<a.length;i++){
+//         if(flag){
+//             titleCase += a[i].toUpperCase()
+//             flag= false
+//         }
+//          else if(a[i]=== " " ){
+//             flag = true
+//             titleCase+=" "
+//         }else{
+//             titleCase +=a[i].toLowerCase()
+//         }
+
+//     }
+//     return titleCase
+// }
+// var userInput = prompt("Enter your sentence")
+// var result = parameter(userInput)
+// console.log(result);
+
+//_______________Q12
+
+// function userLargestWord(a){
+// var userInput = a ;
+// var userWords = userInput.split(" ");
+
+// var longestWord = ""; // start with empty string
+
+// for (var i = 0; i < userWords.length; i++) {
+//     if (userWords[i].length > longestWord.length) {
+//         longestWord = userWords[i]; // replace if longer
+//     }
+// }
+// return longestWord
+
+// }
+// var userSentence = prompt("Enter a sentence")
+// result = userLargestWord(userSentence)
+// console.log(result);
+
+//_______________Q13
+// function countLetter(a,b){
+// var count = 0
+// for (let i = 0; i < a.length; i++) {
+//     if (a[i] === b) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// var userString = prompt("Enter a string:");
+// var userLetter = prompt("Enter the letter you want to count:");
+// // Function call
+// var result = countLetter(userString, userLetter);
+
+// // Output show karna
+// alert("The letter '" + userLetter + "' appears " + result + " times in your string.");
+// console.log("The letter '" + userLetter + "' appears " + result + " times in your string.");
+//______________Q14
+// function calcCircumference(a){
+//     var C = 2*Math.PI*a
+//     return C
+// }
+// var radius = Number(prompt("Enter a radius"))
+// result = calcCircumference(radius)
+// console.log("The cicumference is : " + result);
+// function calcArea(a){
+//  var A = Math.PI*a**2
+//  return A
+// }
+// area= calcArea(radius)
+// console.log("The area is : " + area);
