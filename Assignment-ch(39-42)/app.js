@@ -98,5 +98,95 @@
 
 //     return count;
 // }
+//______________Q8
+// 1. Take input from user
+// let km = prompt("Enter distance between two cities (in km):");
+
+// // Convert input (string) into number
+// km = Number(km);
+
+// // 2. Functions to convert distance
+// function toMeters(km) {
+//   return km * 1000;   // 1 km = 1000 meters
+// }
+
+// function toFeet(km) {
+//   return km * 3280.84; // 1 km = 3280.84 feet
+// }
+
+// function toInches(km) {
+//   return km * 39370.1; // 1 km = 39370.1 inches
+// }
+
+// function toCentimeters(km) {
+//   return km * 100000;  // 1 km = 100000 cm
+// }
+
+// // 3. Print results
+// document.write("<h2>Distance Conversions</h2>");
+// document.write("Kilometers: " + km + " km <br>");
+// document.write("Meters: " + toMeters(km) + " m <br>");
+// document.write("Feet: " + toFeet(km) + " ft <br>");
+// document.write("Inches: " + toInches(km) + " in <br>");
+// document.write("Centimeters: " + toCentimeters(km) + " cm <br>");
+//______________Q9
+// Function to calculate overtime pay
+// function calculateOvertimePay(hoursWorked) {
+//   const regularHours = 40;
+//   const overtimeRate = 12;
+
+//   let overtimeHours = 0;
+//   let overtimePay = 0;
+
+//   // Check if employee worked more than regular hours
+//   if (hoursWorked > regularHours) {
+//     overtimeHours = hoursWorked - regularHours;
+//     overtimePay = overtimeHours * overtimeRate;
+//   } else {
+//     overtimePay = 0;
+//   }
+
+//   console.log(`Total hours worked: ${hoursWorked}`);
+//   console.log(`Overtime hours: ${overtimeHours}`);
+//   console.log(`Overtime pay: Rs. ${overtimePay}`);
+// }
+
+// // Example: Let's test the function with 45 hours
+// calculateOvertimePay(45);
+//______________Q10
+// function giveNotes(inputInHundreds) {
+//   var amount = inputInHundreds * 100;
+
+//   var note100 = 0;
+//   var note50 = 0;
+//   var note10 = 0;
+
+//   // 100 ke notes
+//   note100 = Math.floor(amount / 100);
+//   amount = amount % 100;
+
+//   // 50 ke notes
+//   note50 = Math.floor(amount / 50);
+//   amount = amount % 50;
+
+//   // 10 ke notes
+//   note10 = Math.floor(amount / 10);
+//   amount = amount % 10;
+
+//   console.log("100 Rs notes: " + note100);
+//   console.log("50 Rs notes: " + note50);
+//   console.log("10 Rs notes: " + note10);
+
+//   // Agar amount 10 ke multiples ka nahi hai
+//   if (amount > 0) {
+//     console.log("Remaining Rs: " + amount + " (cannot be given in available denominations)");
+//   }
+// }
+
+// // Example: Rs. 880 => input = 8.8 (but we need whole hundreds), so let's try 9 = Rs. 900
+// giveNotes(9);
+
+
+
 
 
